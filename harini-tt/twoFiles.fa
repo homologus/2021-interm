@@ -1,0 +1,17 @@
+from Bio import SeqIO
+
+file = open("ALDH2.fa")
+lines = file.readlines()
+writeFile = open("fastaFiles.fa", "w")
+
+# whale sequence
+whaleSeq = ""
+for i in range(22, 32):
+	whaleSeq += "".join(lines[i])
+
+# other organism sequence
+otherSeq = ""
+for j in range(44, 54):
+	otherSeq += "".join(lines[j])
+
+writeFile.write(whaleSeq + "\n" + otherSeq)

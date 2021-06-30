@@ -1,0 +1,8 @@
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+print(len(reads[0]))
+
+
+print(GC(reads[0].seq))

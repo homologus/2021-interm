@@ -1,0 +1,17 @@
+file = open("comparison.aln")
+lines = file.readlines()
+
+lineNum = 5
+number = 0
+astrickLine = ""
+while lineNum < 38:
+	currentLine = lines[lineNum]
+	for aa in currentLine:
+		if aa != " ":
+			astrickLine += aa
+	if aa != "*":
+		number += 1
+	lineNum += 4	
+
+number -= 8	
+print(number)

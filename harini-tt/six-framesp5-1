@@ -1,0 +1,47 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("/share/SARS-class/SARS-urbani.fasta", "fasta"))
+sequence = reads[0]
+reverseComp = sequence.seq.reverse_complement()
+
+def findAminoAcids(frame):
+	aminoAcids = [[], [], [], [], [], []]
+	currentString = ""
+	num = 0
+	index = 1
+	for aa in frame:
+		if aa == "*":
+			currentString += aa
+			if len(currentString) > 100:
+				aminoAcids[num].append(index)
+				aminoAcids[num].append(len(currentString))
+				aminoAcids[num].append(currentString)
+				num += 1
+			currentString = ""
+		else:
+			currentString += aa
+		index += 1
+	return aminoAcids
+
+# 5->3 frames
+frame1 = sequence.translate()
+print(findAminoAcids(frame1))
+
+oneLessSeq = sequence[1:len(sequence)-1]
+frame2 = oneLessSeq.translate()
+print(findAminoAcids(frame2))
+
+twoLessSeq = sequence[2:len(sequence)-1]
+frame3 = twoLessSeq.translate()
+print(findAminoAcids(frame3))
+
+# opposite frames
+frame4 = reverseComp.translate()
+print(findAminoAcids(frame4))
+
+oneLessRev = reverseComp[1:len(reverseComp)-1]
+frame5 = oneLessRev.translate()
+print(findAminoAcids(frame5))
+
+twoLessRev = reverseComp[2:len(reverseComp)-1]
+frame6 = twoLessRev.translate()
+print(findAminoAcids(frame6))

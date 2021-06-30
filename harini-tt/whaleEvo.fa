@@ -1,0 +1,26 @@
+from Bio import SeqIO
+
+file = open("ALDH2.fa")
+lines = file.readlines()
+
+# whale sequence
+whaleSeq = ""
+for i in range(22, 32):
+	whaleSeq += "".join(lines[i])
+print(whaleSeq)
+
+# other organism sequence
+otherSeq = ""
+for j in range(55, 65):
+	otherSeq += "".join(lines[j])
+print(otherSeq)
+
+listOfPositions = []
+
+
+for k in range(len(whaleSeq)):
+	if whaleSeq[k] != otherSeq[k]:
+		listOfPositions.append(k)
+
+print(listOfPositions)
+print(len(listOfPositions))

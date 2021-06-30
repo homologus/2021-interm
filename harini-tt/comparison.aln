@@ -1,0 +1,38 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+beluga-whale      MLRAVVLAAARPCQGRRLLSAAATPAVPAPNQQPEVFYNKIFINNEWHDSVSKKTFPTIN
+yeast             --------------MPTLYTDIEIPQLKISLKQPL----GLFINNEFCPSSDGKTIETVN
+                                   * :    * :  . :**      :*****:  * . **: *:*
+
+beluga-whale      PSTGDVICHVAEGDKEDVDRAVKAARAAFQLGSPWRRMDASKRGWLLNRLADLIERDRTY
+yeast             PATGEPITSFQAANEKDVDKAVKAARAAFD--NVWSKTSSEQRGIYLSNLLKLIEEEQDT
+                  *:**: *  .  .:::***.*********:  . * . .:.:**  *..* .*** :.  
+
+beluga-whale      LAALETLDNGKPYVISYLVDLDMVLKCLRYYAGWADKY-HGKTIPIDGDYFSYTRHEPVG
+yeast             LAALETLDAGKPYHSNAKGDLAQILQLTRYFAGSADKFDKGATIPLTFNKFAYTLKVPFG
+                  ******** ****  .   **  :*:  **:** ***: :* ***:  : *:** : *.*
+
+beluga-whale      VCGQIIPWNFPLLMQAWKLGPALATGNVVVMKVAEQTPLTALYVANLIKEAGFPPGVVNI
+yeast             VVAQIVPWNYPLAMACWKLQGALAAGNTVIIKPAENTSLSLLYFATLIKKAGFPPGVVNI
+                  * .**:***:** * .***  ***:**.*::* **:*.*: **.*.***:**********
+
+beluga-whale      IPGFGPTAGAAVASHEDVDKVAFTGSTEVGHLIQTAAGNSNLKRVTLELGGKSPNIIMSD
+yeast             VPGYGSLVGQALASHMDIDKISFTGSTKVGGFVLEASGQSNLKDVTLECGGKSPALVFED
+                  :**:*. .* *:*** *:**::*****:** ::  *:*:**** **** ***** :::.*
+
+beluga-whale      ADMDWAVEQAHFALFFNQGQCCCAGSRTFVQEDVYTEFVE--RSVARARSRVVG--NPFD
+yeast             ADLDKAIDWIAAGIFYNSGQNCTANSRVYVQSSIYDKFVEKFKETAKKEWDVAGKFDPFD
+                  **:*.*::.   .:*:*.** * *.**.:**..:* :***  ...*.    *.*  :***
+
+beluga-whale      SRTEQGPQVDETQFKKVLGYIKSGKEEG-------AKLLCGGGAAADRGYFIQPTVFGDV
+yeast             EKCIVGPVISSTQYDRIKSYIERGKREEKLDMFQTSEFPIGGA----KGYFIPPTIFTDV
+                  ..   ** :..**:..: .**: ** *        :::  **.    .**** **:* **
+
+beluga-whale      QDGMTIAKEEIFGPVMQILKFKTIEEVVGRANNSKYGLAAAVFTKDLDKANYLSQALQAG
+yeast             PQTSKLLQDEIFGPVVVVSKFTNYDDALKLANDTCYGLASAVFTKDVKKAHMFARDIKAG
+                   :  .: ::******: : **.. ::.:  **:: ****:******:.**: ::. ::**
+
+beluga-whale      TVWVNCYDVFGAQSPFGGYKLSGSGRELGEYGLQAYTEVKTVTVKVPQKNS
+yeast             TVWINSSNDEDVTVPFGGFKMSGIGRELGQSGVDTYLQTKAVHINLSLDN-
+                  ***:*. :  ..  ****:*:** *****: *:::* :.*:* :::. .* 
