@@ -1,0 +1,13 @@
+from Bio.SeqUtils import GC
+from Bio.Seq import Seq
+f = open("/share/SARS-class/SARS-2020.fasta")
+lines = f.readlines()
+dna = ""
+count = 0
+for i in range(1, len(lines)):
+	lines[i] = lines[i].rstrip('\n')
+	dna = dna + lines[i]
+
+print(dna)
+read = Seq(dna)
+pri

@@ -1,0 +1,13 @@
+
+
+
+f = open("small-genome")
+lines = f.readlines()
+
+dna = ""
+
+for i in range(1,len(lines)):
+	lines[i] = lines[i].rstrip('/n')
+	dna = dna + lines[i]
+
+print(len(dna))
