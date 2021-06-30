@@ -1,0 +1,11 @@
+from Bio import SeqIO
+dna = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+for frame in range(6):
+	p = dna[0][frame:].translate().seq
+
+	proteins = p.split('*')
+
+	for i in proteins:
+		if(len(i) >100):
+			print(frame, i)
+print(list.reverse_complement())

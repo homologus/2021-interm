@@ -1,0 +1,11 @@
+from Bio import SeqIO
+020.fasta")
+dna = f
+for frame in range(6):
+	p = dna[0][frame:].translate().seq
+
+	proteins = p.split('*')
+
+	for i in proteins:
+		if(len(i) >100):
+			print(frame, i)

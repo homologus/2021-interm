@@ -1,0 +1,3 @@
+from Bio.Seq import Seq
+f = open("small-genome")
+lines = f.readlines()
