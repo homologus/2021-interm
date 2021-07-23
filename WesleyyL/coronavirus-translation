@@ -1,0 +1,38 @@
+from Bio import SeqIO
+from Bio.Seq import Seq
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+aa1 = reads[0].seq.translate()
+
+aa2 = reads[0].seq[1:].translate()
+
+aa3 = reads[0].seq[2:].translate()
+
+proteins = ""
+count = 0
+
+def proteinsearch(seq):
+	proteins = ""
+	count = 0
+	start = 0
+	end = 0
+	for aa in str(seq):
+		if aa == "*":
+			if count >= 100:		
+				print(proteins)
+				start = end - len(proteins)
+				print("Start: " + str(start))
+				print("End: " + str(end))
+				print()
+			proteins = ""
+			count = 0
+		else:
+			proteins += aa
+			count += 1
+		end += 1			
+
+
+proteinsearch(aa1)
+proteinsearch(aa2)
+proteinsearch(aa3)

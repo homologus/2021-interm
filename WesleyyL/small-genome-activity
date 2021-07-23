@@ -1,0 +1,14 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+genome = list(SeqIO.parse("small-genome", "fasta"))
+
+
+print("Number of nucleotides: " + str(len(genome[0])))
+
+#type(GC(genome[0].seq))
+
+print("GC content: " + str(GC(genome[0].seq)))
+
+print(genome[0].seq.reverse_complement())
