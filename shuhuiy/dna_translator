@@ -1,0 +1,21 @@
+from Bio import SeqIO
+
+dna = list(SeqIO.parse("small-genome", "fasta"))
+dna_seq = dna[0].seq
+
+first_frame = dna_seq
+second_frame = dna_seq[1:]
+third_frame = dna_seq[2:]
+
+first_protein = first_frame.translate()
+second_protein = second_frame.translate()
+third_protein = third_frame.translate()
+
+first_chunks = first_protein.split("*")
+second_chunks = second_protein.split("*")
+third_chunks = third_protein.split("*")
+
+print(first_chunks)
+print(second_chunks)
+print(third_chunks)
+
