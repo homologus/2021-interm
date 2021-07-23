@@ -1,0 +1,6 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta","fasta"))
+
+cou range(len(reads)):
+	count=len(reads[i].seq)
+print(count)
