@@ -1,0 +1,22 @@
+
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta","fasta"))
+
+a = reads[0].seq.translate()
+
+b = reads[0].seq[1:].translate()
+
+c = reads[0].seq[2:].translate()
+
+x = str(a) + str(b) + str(c)
+
+proteins = x.split("*")
+
+sequences = ""
+
+for i in range(len(proteins)):
+
+    sequences += proteins[i)
+
+print(sequences)

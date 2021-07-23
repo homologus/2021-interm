@@ -1,0 +1,5 @@
+from Bio.Seq import Seq
+
+sequences = ""
+
+for i in range len()
