@@ -1,0 +1,39 @@
+# go through the whole sequence and first break it up into 3 reading frames
+# Then translate it into an amino acid
+# steps: first break up sequence into 3s. Taking each codon, I will translate
+#it into an amino acid and if it's not a stop codon I will add that amino
+#acid into a string. 
+# If I reach a stop codon or get to the end of the sequence I will check the
+#length of the string and if it's length is > 100, I will add it into the
+#proteins list
+
+from Bio import SeqIO
+#read = Seq("GATCGTAGATAGTGCGCGCGTAGAGGAGAGATAGAGAGAGGAGATAGAGATA")
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+aminoacids = reads[0].translate()
+protein = ""
+proteins = []
+#for x in aminoacids:
+	#print(x)
+pos = 0
+for aminoacid in aminoacids:
+	pos += 1
+	if aminoacid == "*" or pos==len(aminoacids):
+		#print(pos)
+		#print("\n")
+		if(len(protein)>100):
+			print("END POSITION: " + str(pos-1))
+			print("START POSITION: " + str(pos-1-len(protein)))
+			print("\n")
+			proteins.append(protein)
+		protein = ""
+	else:
+		protein += aminoacid
+	
+for y in proteins:
+	print(y)
+	print("\n")
+	print(len(y))
+	print("\n")
+print(len(proteins))
+

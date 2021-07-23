@@ -1,0 +1,2 @@
+f=open("small-genome")
+print(f)

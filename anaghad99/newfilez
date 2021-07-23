@@ -1,0 +1,8 @@
+file = open('/share/SARS-class/SARS-2020.fasta')
+lines = file.readlines()
+
+og_sequence = ''.join(lines)
+og_sequence = og_sequence.split('\n', 1)[1]
+og_sequence = og_sequence.rstrip('\n')  
+
+print(og_sequence)

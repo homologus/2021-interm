@@ -1,0 +1,8 @@
+from Bio import SeqIO
+
+sequences = list(SeqIO.parse('small-genome', 'fasta'))
+
+for sequence in sequences:
+	prseq = sequence[0:].translate()
+
+print(prseq)
