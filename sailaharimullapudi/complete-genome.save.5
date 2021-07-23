@@ -1,0 +1,18 @@
+from Bio import SeqIO 
+from Bio.SeqUtils import GC 
+
+for i in SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"):
+	#print(i)
+	#print(len(i.seq))
+	#print(GC(i.seq))
+
+	prot1 = str((i.seq.translate().split("*")))
+	
+	if prot1 >= len(100):
+		print(prot1)
+
+	#print(i[1:].seq.translate().split("*"))
+	#print(i[2:].seq.translate().split("*"))
+	
+		
+	
