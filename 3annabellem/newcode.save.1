@@ -1,0 +1,11 @@
+from Bio.SeqUtils import GC
+from Bio import SeqIO
+genome = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+last_stop_codon_index = 0
+
+
+
+print(genome[0].seq.translate())
+print(genome[0].seq[1:len(genome[0].seq) - 2].translate())
+print(genome[0].seq[2:len(genome[0].seq) - 1].translate())
