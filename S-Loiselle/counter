@@ -1,0 +1,19 @@
+\f=open('/share/SARS-class/SARS-2020.fasta')
+dna=f.readlines()
+
+for i in dna:
+	dna[i] = dna[i].rstrip()
+
+
+genome = dna[1] + dna[2] + dna[3]
+
+count = {'A':0,'T':0,'C':0,'G':0}
+
+for i in genome:
+	count[i] = count[i] + 1
+	
+print(count)
+
+
+    
+
