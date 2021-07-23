@@ -1,0 +1,35 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+print(len(str(reads[0].seq)))
+
+RNAs = ['', '', '']
+
+for x in range (0, len(RNAs)):
+  for i in range(x, len(str(reads[0].seq)), 3):
+    RNAs[x] = RNAs[x] + str(reads[0][i:i+3].seq.translate())
+
+
+strands = [[], [], []]
+
+for x in range (0, len(strands)):
+  for i in range (x, len(RNAs[x])):
+    if RNAs[x][i] == '*':
+      strands[x].append(i)
+
+
+strandsNum = 0
+longStrands = []
+
+for x in range (0, len(strands)):
+  for i in range (0, len(strands[x])-1):
+    if strands[x][i+1] - strands[x][i] >= 100:
+      strandsNum = strandsNum + 1
+      longStrands.append(RNAs[x][strands[x][i] + 1 : strands[x][i+1] + 1])
+      print(strands[x][i] + 1, strands[x][i+1] + 1)
+      
+
+print('There are ' + str(strandsNum) + ' proteins that are longer than 100 amino acids: \n')
+
+for i in range(0, len(longStrands)):
+  print(longStrands[i] + '\n')

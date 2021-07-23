@@ -1,0 +1,6 @@
+file = open('small-genome')
+data = file.read()
+
+no_o_characters = len(data)
+
+print(no_o_characters)

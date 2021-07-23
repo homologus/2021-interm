@@ -1,0 +1,8 @@
+
+x = open('small-genome')
+l=x.readlines()
+l.pop(0)
+
+m = ''.join(l)
+m = m.replace('\n', '')
+print(len(m))

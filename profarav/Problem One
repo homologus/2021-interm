@@ -1,0 +1,8 @@
+f=open("small-genome")
+lines=f.readlines()
+lines[0] = lines[1]
+for i in range(len(lines)):
+    lines[i]=lines[i].rstrip('\n')
+x = lines[0] + lines[2] + lines[3]
+print(len(x))
+print(x)

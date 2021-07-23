@@ -1,0 +1,15 @@
+from Bio import SeqIO
+
+dna = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+dna_seq = dna[0].seq		
+
+for frame in range(3):
+	proteins = dna_seq[frame:].translate()
+	proteins_chunks = proteins.split('*')
+	
+	for chunk in proteins_chunks:
+		if len(chunk) > 100:
+			beginning = proteins.find(chunk)
+			ending = beginning + len(chunk)
+			print(frame, beginning, ending)
+
