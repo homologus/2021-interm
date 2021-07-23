@@ -1,0 +1,8 @@
+˚˚˚˚
+
+
+˚f=open(small-genome)
+lines=f.readlines()
+print(lines)
+lines[0] = lines[1]
+print(lines)

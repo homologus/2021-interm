@@ -1,0 +1,23 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+codons = []
+proteins = []
+codon = ""
+protein = ""
+start = 0
+for nucleotide in range(0, 101):
+	if nucleotide % 3 == 0 and nucleotide != 0:
+		# if there's a stop codon I will put all the amino acids into the proteins variable
+		if codon == "TAA" or codon == "TAG" or codon == "TGA" or len(protein)==100:
+			proteins.append(protein)
+			start = start + 1
+			protein = ""
+			#nucleotide += 3
+		print(reads[0].seq[nucleotide-3:nucleotide])
+		print(reads[0].seq[nucleotide-3:nucleotide].translate())
+		protein += reads[0].seq[nucleotide-3:nucleotide].translate()
+		codon = ""
+		#print(nucleotide)
+	codon += reads[0].seq[nucleotide:nucleotide+1]
+	#print(codon)
+print(proteins)

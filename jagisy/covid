@@ -1,0 +1,29 @@
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+def main():
+    reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+    print("Number of sequences", len(reads))
+
+    print("Length of first sequence", len(reads[0]))
+    print("GC Content: " + str(GC(reads[0].seq)))
+
+    for i in range(3):
+        amino_acids = reads[0].seq[i:].translate()
+        print(amino_acids)
+
+        print("number of proteins in this reading frame: "
+              + str(compute_proteins(amino_acids)))
+
+
+
+def compute_proteins(amino_acids):
+    proteins = []
+    last = 0
+    for i in range(len(amino_acids)):
+        if amino_acids[i] == "*":
+            proteins.append(amino_acids[last : i])
+            last = i+1
+    return len(proteins)
+
+main()

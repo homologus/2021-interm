@@ -1,0 +1,38 @@
+import random
+from Bio.Seq import Seq
+from Bio.Blast import NCBIWWW
+from Bio import SeqIO
+
+genome = ""
+
+for i in range(1000):
+	num = random.uniform(0,1)
+	
+	if num >= 0 and num < 0.2:
+		genome += "A"
+	elif num >= 0.2 and num < 0.4:
+		genome += "T"
+	elif num >= 0.4 and num < 0.7:
+		genome += "G"
+	elif num >= 0.7 and num <= 1:
+		genome += "C"
+
+print(genome)
+
+cont = input("Type BLAST to Continue: ")
+
+if cont == "BLAST":
+	record = Seq(genome) #Typecasts to the Sequence type
+	result_handle = NCBIWWW.qblast("blastn", "nt", record) #Bio.Blast.NCBIWWW module
+
+	#NCBIWWW.qblast(program, database, sequence)
+	#program = blastn (nucleotide blast) [blastp - protein, blastx, etc.)
+	#database = nt (nucleotide database) [nr - protein database, etc.]
+	#sequence = record (the sequence variable)
+
+	save_file = open("my_blast.xml", "w")
+	save_file.write(result_handle.read())
+	save_file.close()
+	result_handle.close()
+else:
+	quit()
