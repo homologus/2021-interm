@@ -1,0 +1,17 @@
+from Bio import SeqIO
+
+dna = list(SeqIO.parse("/share/SARS-class/SARS-urbani.fasta", "fasta"))
+
+for frame in range(3):
+	p = dna[0].seq[frame:].translate()
+
+	proteins = p.split("*")
+
+	for i in proteins:
+		if (len(i) > 100):
+			b = p.find(i)
+			e = b + len(i)
+			print("Start: " + str(b) + "\n" + "End: " + str(e))
+			print("Frame: " + str(frame))
+			print(i)
+			print()
