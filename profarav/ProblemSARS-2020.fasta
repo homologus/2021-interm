@@ -1,0 +1,2 @@
+f=open("SARS-2020.fasta")
+lines=f.readlines()

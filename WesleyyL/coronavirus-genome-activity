@@ -1,0 +1,13 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+genome = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+
+print("Number of nucleotides: " + str(len(genome[0])))
+
+print("GC content: " + str(GC(genome[0].seq)))
+
+#print(genome[0].seq.reverse_complement())
+

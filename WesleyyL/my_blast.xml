@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_320229</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1000</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_320229</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>1000</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1198020805|gb|CP020809.1|</Hit_id>
+  <Hit_def>Mycobacterium dioxanotrophicus strain PH-06 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP020809</Hit_accession>
+  <Hit_len>7595921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>5.11878</Hsp_evalue>
+      <Hsp_query-from>269</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>1912301</Hsp_hit-from>
+      <Hsp_hit-to>1912345</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>ATTGCTACGGACAAGCAGCGGCGGCGGCAGTCGGGCGTCCGCCAGAT</Hsp_qseq>
+      <Hsp_hseq>ATTGCGTCGGATA--CAGCGGCGGCGGCAGTCCGGCGTCGGCCGGAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||| |  ||||||||||||||||| |||||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1987751181|emb|LR999972.1|</Hit_id>
+  <Hit_def>Deilephila porcellus genome assembly, chromosome: 2</Hit_def>
+  <Hit_accession>LR999972</Hit_accession>
+  <Hit_len>17025588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>5.11878</Hsp_evalue>
+      <Hsp_query-from>276</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>4801653</Hsp_hit-from>
+      <Hsp_hit-to>4801620</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CGGACAAGCAGCGGCGGCGGCAGTCGGGCGTCCGC</Hsp_qseq>
+      <Hsp_hseq>CGGGCTAGCAGCGGCGGCGGCAG-CGGGCGTCCGC</Hsp_hseq>
+      <Hsp_midline>||| | ||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|169155030|emb|AM849034.1|</Hit_id>
+  <Hit_def>Clavibacter michiganensis subsp. sepedonicus complete genome</Hit_def>
+  <Hit_accession>AM849034</Hit_accession>
+  <Hit_len>3258645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2722</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>5.11878</Hsp_evalue>
+      <Hsp_query-from>276</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>1811662</Hsp_hit-from>
+      <Hsp_hit-to>1811699</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>CGGACAAGCAGCGGCGGCGGCAGTCGGGCGTCCGCCAG</Hsp_qseq>
+      <Hsp_hseq>CGGACGAGGAGCCGCGGCGGGAGACGGGCGTCCGCCAG</Hsp_hseq>
+      <Hsp_midline>||||| || ||| ||||||| || ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1195657354|dbj|AP018111.1|</Hit_id>
+  <Hit_def>Burkholderia stabilis DNA, chromosome: 1, complete genome, strain: FERMP-21014</Hit_def>
+  <Hit_accession>AP018111</Hit_accession>
+  <Hit_len>3625611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>5.11878</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>176641</Hsp_hit-from>
+      <Hsp_hit-to>176679</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GCAGC-GGC-GGCGGCAGTCGGGCGTCCGCCAGATCCCC</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGGCAGGCGGCGGTCCGGCGTCCGCCAGATCCCC</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||||| ||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|831192838|gb|CP011503.1|</Hit_id>
+  <Hit_def>Burkholderia pyrrocinia strain DSM 10685 chromosome 1, complete sequence</Hit_def>
+  <Hit_accession>CP011503</Hit_accession>
+  <Hit_len>3584103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>5.11878</Hsp_evalue>
+      <Hsp_query-from>283</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>2813679</Hsp_hit-from>
+      <Hsp_hit-to>2813717</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GCAGC-GGC-GGCGGCAGTCGGGCGTCCGCCAGATCCCC</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGGCAGGCGGCGGTCCGGCGTCCGCCAGATCCCC</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||||| ||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>71679020</Statistics_db-num>
+      <Statistics_db-len>487948073735</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
