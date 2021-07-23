@@ -1,0 +1,9 @@
+f = open("small-genome", "r")
+
+bases = {"A":0, "T":0, "C":0, "G":0}
+N = len(f)
+
+for b in range(0,N):
+	bases[f[b]] = bases[f[b]]+1
+
+print(bases)
