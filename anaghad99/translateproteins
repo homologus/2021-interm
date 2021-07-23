@@ -1,0 +1,34 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse('/share/SARS-class/SARS-2020.fasta', 'fasta'))
+
+frame_1 = reads[0].seq.translate()
+
+my_frame_1_list = frame_1.split('*')
+
+for i in my_frame_1_list:
+	letter_count = len(i)
+	if letter_count > 100:
+		print(letter_count)
+		print(i)
+
+frame_2_translated = reads[0].seq[1:].translate()
+
+my_frame_2_list = frame_2_translated.split('*')
+
+for i in my_frame_2_list:
+	letter_count = len(i)
+	if letter_count > 100:
+		print(letter_count)
+		print(i)
+
+frame_3 = reads[0].seq[2:].translate()
+my_frame_3_list = frame_3.split('*')
+
+for i in my_frame_3_list:
+	letter_count = len(i)
+	if letter_count > 100:
+		print(letter_count)
+		print(i)
+
+print(frame_2_translated)
