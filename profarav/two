@@ -1,0 +1,30 @@
+f=open("/share/SARS-class/SARS-2020.fasta")
+lines=f.readlines()
+protein = {'TTT':'F', 'TTC':'F', 'TTA':'L', 'TTG':'L', 'CTT':'L', 'CTC':'L', 'CTA':'L', 'CTG':'L', 'ATT':'l', 'ATC':'l','ATA':'l','ATG':'M',
+           'GTT':'V', 'GTC':'V', 'GTA':'V', 'GTG':'V', 'TCT':'S', 'TCC':'S',
+           'TCA':'S', 'TCG':'S', 'CCT':'P', 'CCC':'P', 'CCA':'P', 'CCG':'P', 'ACT':'T', 'ACC':'T', 'ACA':'T', 'ACG':'T', 'GCT':'A', 'GCC':'A', 'GCA':'A',
+           'GCG':'A', 'TAT':'Y', 'TAC':'Y', 'TAA':'*', 'TAG':'*', 'CAT':'H', 'CAC':'H', 'CAA':'Q', 'CAG':'Q',
+           'AAT':'N', 'AAC':'N', 'AAA':'K', 'AAG':'K',
+           'GAT':'D', 'GAC':'D', 'GAA':'E', 'GAG':'E', 'TGT':'C', 'TGC':'C', 'TGA':'*', 'TGG':'W', 'CGT':'R', 'CGC':'R', 'CGA':'R','CGG':'R',
+           'AGT':'S', 'AGC':'S', 'AGA':'R', 'AGG':'R', 'GGT':'G',
+           'GGC':'G', 'GGA':'G', 'GGG':'G',}
+x = lines[1:]
+
+for i in range(len(x)):
+	x[i] = x[i].rstrip('\n')
+y = x[0]
+for i in range(len(x)):
+	y = y + x[i]
+
+z = len(y)/3
+asd = []
+asdv = []
+for i in range(int(z)):
+	asd.append(y[:3])
+	y = y[3:]
+
+for i in range(len(asd)):
+	asdv.append(protein[asd[i]])
+print(asdv)	
+#print(s.translate({ord('a'): None}))
+
