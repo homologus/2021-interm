@@ -1,0 +1,14 @@
+from Bio import SeqIO
+records = SeqIO.parse("small-genome", "fasta")
+
+
+record = next(records)
+print(record.id)
+print(record.seq)
+print(len(record))
+
+record = next(records)
+print(record.id)
+print(record.seq)
+print(len(record))
+ 
