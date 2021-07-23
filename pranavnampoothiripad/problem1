@@ -1,0 +1,8 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("small-genome", "fasta"))
+
+
+
+print(len(reads[0].seq))
+

@@ -1,0 +1,4 @@
+file = open('small-genome')
+lines = file.readlines()
+
+
