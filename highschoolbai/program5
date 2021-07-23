@@ -1,0 +1,18 @@
+import random
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+sequence = list(SeqIO.parse('/share/SARS-class/SARS-2020.fasta', 'fasta'))
+N = len(sequence)
+
+
+bases = ['A','T','G','C']
+seq = ''
+
+for _ in range(0,N):
+    base = random.choice(bases)
+    seq += base
+
+for b in seq:
+    if (seq.count('G') + seq.count('C')/(len(seq))) == GC(sequence[0].seq):
+        print(seq)
