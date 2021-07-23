@@ -1,0 +1,6 @@
+mylist = [21, 5, 8, 52, 21, 87]
+item = 8 
+
+index = mylist.index(item) 
+
+print("The index of", item, "in the list is:", index) 
