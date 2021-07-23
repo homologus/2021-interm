@@ -1,0 +1,21 @@
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+print("Number of sequences", len(reads))
+
+print("Length of first sequence", len(reads[0]))
+print("First sequence", reads[0].id) 
+print(reads[0].seq)
+
+print("Length of first sequence", len(reads[0]))
+
+print(reads[0].seq[100:200])
+
+print(reads[0].seq.reverse_complement())
+
+print(reads[0].translate())
+
+print(GC(reads[0].seq))
