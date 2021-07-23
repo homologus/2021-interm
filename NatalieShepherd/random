@@ -1,0 +1,54 @@
+import random
+
+from Bio.SeqUtils import GC
+from Bio.Seq import Seq
+
+genome = ''
+
+for i in range(29903):
+  x = random.uniform(0,1)
+
+  if x >= 0 and x < 0.31:
+    genome = genome + 'A'
+
+  if x >= 0.31 and x < 0.62:
+    genome = genome + 'T'
+
+  if x >= 0.62 and x < 0.81:
+    genome = genome + 'G'
+
+  if x >= 0.81 and x <= 1:
+    genome = genome + 'C'
+
+
+RNAs = ['', '', '']
+
+for x in range (0, len(RNAs)):
+  for i in range(x, len(genome), 3):
+    RNAs[x] = RNAs[x] + str(Seq(genome[i:i+3]).translate())
+
+
+strands = [[], [], []]
+
+for x in range (0, len(strands)):
+  for i in range (x, len(RNAs[x])):
+    if RNAs[x][i] == '*':
+      strands[x].append(i)
+
+
+strandsNum = 0
+longStrands = []
+
+for x in range (0, len(strands)):
+  for i in range (0, len(strands[x])-1):
+    if strands[x][i+1] - strands[x][i] >= 100:
+      strandsNum = strandsNum + 1
+      longStrands.append(RNAs[x][strands[x][i] + 1 : strands[x][i+1] + 1])
+      print(strands[x][i] + 1, strands[x][i+1] + 1)
+
+for i in range(0, len(longStrands)):
+  print(longStrands[i] + '\n')
+
+print('There are ' + str(strandsNum) + ' proteins that are longer than 100 amino acids: \n')
+
+print('GC content: ' + str(GC(genome)))

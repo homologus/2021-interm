@@ -1,0 +1,298 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+protien-from-sars2020      PKGKMESLVPGFNEKTHVQLSLPVLQVRDVLVRGFGDSVEEVLSEARQHLKDGTCGLVEV
+protein-from-urbani        PKGKMESLVLGVNEKTHVQLSLPVLQVRDVLVRGFGDSVEEALSEAREHLKNGTCGLVEL
+                           ********* *.*****************************.*****:***:*******:
+
+protien-from-sars2020      EKGVLPQLEQPYVFIKRSDARTAPHGHVMVELVAELEGIQYGRSGETLGVLVPHVGEIPV
+protein-from-urbani        EKGVLPQLEQPYVFIKRSDALSTNHGHKVVELVAEMDGIQYGRSGITLGVLVPHVGETPI
+                           ******************** :: *** :******::******** *********** *:
+
+protien-from-sars2020      AYRKVLLRKNGNKGAGGHSYGADLKSFDLGDELGTDPYEDFQENWNTKHSSGVTRELMRE
+protein-from-urbani        AYRNVLLRKNGNKGAGGHSYGIDLKSYDLGDELGTDPIEDYEQNWNTKHGSGALRELTRE
+                           ***:***************** ****:********** **:::******.**. *** **
+
+protien-from-sars2020      LNGGAYTRYVDNNFCGPDGYPLECIKDLLARAGKASCTLSEQLDFIDTKRGVYCCREHEH
+protein-from-urbani        LNGGAVTRYVDNNFCGPDGYPLDCIKDFLARAGKSMCTLSEQLDYIESKRGVYCCRDHEH
+                           ***** ****************:****:******: ********:*::********:***
+
+protien-from-sars2020      EIAWYTERSEKSYELQTPFEIKLAKKFDTFNGECPNFVFPLNSIIKTIQPRVEKKKLDGF
+protein-from-urbani        EIAWFTERSDKSYEHQTPFEIKSAKKFDTFKGECPKFVFPLNSKVKVIQPRVEKKKTEGF
+                           ****:****:**** ******* *******:****:******* :*.********* :**
+
+protien-from-sars2020      MGRIRSVYPVASPNECNQMCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENLTKEGATT
+protein-from-urbani        MGRIRSVYPVASPQECNNMHLSTLMKCNHCDEVSWQTCDFLKATCEHCGTENLVIEGPTT
+                           *************:***:* *******:**.*.**** **:*****.******. **.**
+
+protien-from-sars2020      CGYLPQNAVVKIYCPACHNSEVGPEHSLAEYHNESGLKTILRKGGRTIAFGGCVFSYVGC
+protein-from-urbani        CGYLPTNAVVKMPCPACQDPEIGPEHSVADYHNHSNIETRLRKGGRTRCFGGCVFAYVGC
+                           ***** *****: ****::.*:*****:*:*** *.::* ******* .******:****
+
+protien-from-sars2020      HNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNINIVGDFKLNEEIAII
+protein-from-urbani        YNKRAYWVPRASADIGSGHTGITGDNVETLNEDLLEILSRERVNINIVGDFHLNEEVAII
+                           :** *********:**..***:.*:. * **::*****..*.*********:****:***
+
+protien-from-sars2020      LASFSASTSAFVETVKGLDYKAFKQIVESCGNFKVTKGKAKKGAWNIGEQKSILSPLYAF
+protein-from-urbani        LASFSASTSAFIDTIKSLDYKSFKTIVESCGNYKVTKGKPVKGAWNIGQQRSVLTPLCGF
+                           ***********::*:*.****:** *******:******. *******:*.*:*:** .*
+
+protien-from-sars2020      ASEAARVVRSIFSRTLETAQNSVRVLQKAAITILDGISQYSLRLIDAMMFTSDLATNNLV
+protein-from-urbani        PSQAAGVIRSIFARTLDAANHSIPDLQRAAVTILDGISEQSLRLVDAMVYTSDLLTNSVI
+                           .*:** *:****:***::*::*:  **.**:*******: ****:***::**** **.::
+
+protien-from-sars2020      VMAYITGGVVQLTSQWLTNIFGTVYEKLKPVLDWLEEKFKEGVEFLRDGWEIVKFISTCA
+protein-from-urbani        IMAYVTGGLVQQTSQWLSNLLGTTVEKLRPIFEWIEAKLSAGVEFLKDAWEILKFLITGV
+                           :***:***:** *****:*::**. ***.*:::*:* *:. *****.*.***:**: * .
+
+protien-from-sars2020      CEIVGGQIVTCAKEIKESVQTFFKLVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGL
+protein-from-urbani        FDIVKGQIQVASDNIKDCVKCFIDVVNKALEMCIDQVTIAGAKLRSLNLGEVFIAQSKGL
+                            :** *** ..:.:**:.*: *:.:*** * :* *.: *.****.:*****.*:::****
+
+protien-from-sars2020      YRKCVKSREETGLLMPLKAPKEIIFLEGETLPTEVLTEEVVLKTGDLQPLEQPTSEAVEA
+protein-from-urbani        YRQCIRGKEQLQLLMPLKAPKEVTFLEGDSHDTVLTSEEVVLKNGELEALETPVDSFTNG
+                           **:*:...*:  **********: ****::  * : :******.*:*:.** *... .:.
+
+protien-from-sars2020      PLVGTPVCINGLMLLEIKDTEKYCALAPNMMVTNNTFTLKGGAPTK-VTFGDDTVIEVQG
+protein-from-urbani        AIVGTPVCVNGLMLLEIKDKEQYCALSPGLLATNNVFRLKGGAPIKGVTFGEDTVWEVQG
+                           .:******:**********.*:****:*.::.***.* ****** * ****:*** ****
+
+protien-from-sars2020      YKSVNITFELDERIDKVLNEKCSAYTVELGTEVNEFACVVADAVIKTLQPVSELLTPLGI
+protein-from-urbani        YKNVRITFELDERVDKVLNEKCSVYTVESGTEVTEFACVVAEAVVKTLQPVSDLLTNMGI
+                           **.*.********:*********.**** ****.*******:**:*******:*** :**
+
+protien-from-sars2020      DLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEE-EGDCEEEEFEPSTQYEYGTEDD
+protein-from-urbani        DLDEWSVATFYLFDDAGEENFSSRMYCSFYPPDEEEEDDAECEEEEIDETCEHEYGTEDD
+                           ******:**:****::** :::*.**********:** :.:*****:: : ::*******
+
+protien-from-sars2020      YQGKPLEFGATSAALQPEEEQEEDWLDDDSQQTVGQQDGSEDNQTTTIQTIVEVQPQLEM
+protein-from-urbani        YQGLPLEFGASAETVRVEEEEEEDWLDDTTEQS-------------------EIEP--EP
+                           *** ******:: ::. ***:******* ::*:                   *::*  * 
+
+protien-from-sars2020      ELTPVVQTIEVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGA
+protein-from-urbani        EPTP---EEPVNQFTGYLKLTDNVAIKCVDIVKEAQSANPMVIVNAANIHLKHGGGVAGA
+                           * **      **.*:********* ** .***:**:..:* *:*****::**********
+
+protien-from-sars2020      LNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSA
+protein-from-urbani        LNKATNGAMQKESDDYIKLNGPLTVGGSCLLSGHNLAKKCLHVVGPNLNAGEDIQLLKAA
+                           ******.*** ******  ****.*****:********:********:* ********:*
+
+protien-from-sars2020      YENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFLEMK
+protein-from-urbani        YENFNSQDILLAPLLSAGIFGAKPLQSLQVCVQTVRTQVYIAVNDKALYEQVVMDYLDNL
+                           *****.:::*************.*::**.***:****:**:** ** **:::* .:*:  
+
+protien-from-sars2020      SEKQVEQKIAEIPKEEVKPFITESKPSVEQRKQDDKKIKACVEEVTTTLEETKFLTENLL
+protein-from-urbani        KPRVEAPKQEEPPNTEDSK--TEEKSVVQKPVDVKPKIKACIDEVTTTLEETKFLTNKLL
+                           . .    *  * *: * .   **.*. *::  : . *****::*************::**
+
+protien-from-sars2020      LYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLA
+protein-from-urbani        LFADINGKLYHDSQNMLRGEDMSFLEKDAPYMVGDVITSGDITCVVIPSKKAGGTTEMLS
+                           *: ****:*: ** .:: . *::**:*****:****: .* :*.****:**********:
+
+protien-from-sars2020      KALRKVPTDNYITTYPGQGLNGYTVEEAKTVLKKCKSAFYILPSIISNEKQEILGTVSWN
+protein-from-urbani        RALKKVPVDEYITTYPGQGCAGYTLEEAKTALKKCKSAFYVLPSEAPNAKEEILGTVSWN
+                           .**.***.*:*********  ***:*****.*********:***  .* *:*********
+
+protien-from-sars2020      LREMLAHAEETRKLMPVCVETKAIVSTIQRKYKGIKIQEGVVDYGARFYFYTSKTTVASL
+protein-from-urbani        LREMLAHAEETRKLMPICMDVRAIMATIQRKYKGIKIQEGIVDYGVRFFFYTSKEPVASI
+                           ****************:*::..**::**************:****.**:***** .***:
+
+protien-from-sars2020      INTLNDLNETLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSSS
+protein-from-urbani        ITKLNSLNEPLVTMPIGYVTHGFNLEEAARCMRSLKAPAVVSVSSPDAVTTYNGYLTSSS
+                           *..**.***.*****:******:******* *****.**.**********:*********
+
+protien-from-sars2020      KTPEEHFIETISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYT-SNPTTFHLDGEVITF
+protein-from-urbani        KTSEEHFVETVSLAGSYRDWSYSGQRTELGVEFLKRGDKIVYHTLESPVEFHLDGEVLSL
+                           **.****:**:******.******* *:**:******** **:* ..*. *******:::
+
+protien-from-sars2020      DNLKTLLSLREVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSH
+protein-from-urbani        DKLKSLLSLREVKTIKVFTTVDNTNLHTQLVDMSMTYGQQFGPTYLDGADVTKIKPHVNH
+                           *:**:*******.********** *****:*************************** .*
+
+protien-from-sars2020      EGKTFYVLPNDDTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKYPQVNGLTSIKWADNN
+protein-from-urbani        EGKTFFVLPSDDTLRSEAFEYYHTLDESFLGRYMSALNHTKKWKFPQVGGLTSIKWADNN
+                           *****:***.***** ******** * *****************:***.***********
+
+protien-from-sars2020      CYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMS
+protein-from-urbani        CYLSSVLLALQQLEVKFNAPALQEAYYRARAGDAANFCALILAYSNKTVGELGDVRETMT
+                           ***::.**:***:*:***.****:********:***********.**************:
+
+protien-from-sars2020      YLFQHANLDSCKRVLNVVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQA
+protein-from-urbani        HLLQHANLESAKRVLNVVCKHCGQKTTTLTGVEAVMYMGTLSYDNLKTGVSIPCVCGRDA
+                           :*:*****:*.********* ***: ***.*************:::*.**.***.**.:*
+
+protien-from-sars2020      TKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCGHYKHITSKETLYCIDGALL
+protein-from-urbani        TQYLVQQESSFVMMSAPPAEYKLQQGTFLCANEYTGNYQCGHYTHITAKETLYRIDGAHL
+                           *:*******.*********:*:*::*** **.***********.***:***** **** *
+
+protien-from-sars2020      TKSSEYKGPITDVFYKENSYTTTIKPVTYKLDGVVCTEIDPKLDNYYKKDNSYFTEQPID
+protein-from-urbani        TKMSEYKGPVTDVFYKETSYTTTIKPVSYKLDGVTYTEIEPKLDGYYKKDNAYYTEQPID
+                           ** ******:*******.*********:******. ***:****.******:*:******
+
+protien-from-sars2020      LVPNQPYPNASFDNFKFVCDNIKFADDLNQLTGYKKPASRELKVTFFPDLNGDVVAIDYK
+protein-from-urbani        LVPTQPLPNASFDNFKLTCSNTKFADDLNQMTGFTKPASRELSVTFFPDLNGDVVAIDYR
+                           ***.** *********:.*.* ********:**:.*******.****************.
+
+protien-from-sars2020      HYTPSFKKGAKLLHKPIVWHVNNATNKATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDA
+protein-from-urbani        HYSASFKKGAKLLHKPIVWHINQATTKTTFKPNTWCLRCLWSTKPVDTSNSFEVLAVEDT
+                           **:.****************:*:**.*:*:******:*********:*****:**  **:
+
+protien-from-sars2020      QGMDNLACEDLKPVSEEVVENPTIQKDVLECNVKTTEVVGDIILKPANNSLKITEEVGHT
+protein-from-urbani        QGMDNLACESQQPTSEEVVENPTIQKEVIECDVKTTEVVGNVILKPSDEGVKVTQELGHE
+                           *********. :*.************:*:**:********::****:::.:*:*:*:** 
+
+protien-from-sars2020      DLMAAYVDNSSLTIKKPNELSRVLGLKTLATHGLAAVNSVPWDTIANYAKPFLNKVVSTT
+protein-from-urbani        DLMAAYVENTSITIKKPNELSLALGLKTIATHGIAAINSVPWSKILAYVKPFLGQAAITT
+                           *******:*:*:********* .*****:****:**:*****..*  *.****.:.. **
+
+protien-from-sars2020      TNIVTRCLNRVCTNYMPYFFTLLLQLCTFTRSTNSRIKASMPTTIAKNTVKSVGKFCLEA
+protein-from-urbani        SNCAKRLAQRVFNNYMPYVFTLLFQLCTFTKSTNSRIRASLPTTIAKNSVKSVAKLCLDA
+                           :* ..*  :** .*****.****:******.******.**:*******:****.*:**:*
+
+protien-from-sars2020      SFNYLKSPNFSKLINIIIWFLLLSVCLGSLIYSTAALGVLMSNLGMPSYCTGYREGYLNS
+protein-from-urbani        GINYVKSPKFSKLFTIAMWLLLLSICLGSLICVTAAFGVLLSNFGAPSYCNGVRELYLNS
+                           .:**:***:****:.* :*:****:******  ***:***:**:* ****.* ** ****
+
+protien-from-sars2020      TNVTIATYCTGSIPCSVCLSGLDSLDTYPSLETIQITISSFKWDLTAFGLVAEWFLAYIL
+protein-from-urbani        SNVTTMDFCEGSFPCSICLSGLDSLDSYPALETIQVTISSYKLDLTILGLAAEWVLAYML
+                           :***   :* **:***:*********:**:*****:****:* *** :**.***.***:*
+
+protien-from-sars2020      FTRFFYVLGLAAIMQLFFSYFAVHFISNSWLMWLIINLVQMAPISAMVRMYIFFASFYYV
+protein-from-urbani        FTKFFYLLGLSAIMQVFFGYFASHFISNSWLMWFIISIVQMAPVSAMVRMYIFFASFYYI
+                           **.***:***:****:**.*** **********:**.:*****:***************:
+
+protien-from-sars2020      WKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGKGFCKLHNWNCV
+protein-from-urbani        WKSYVHIMDGCTSSTCMMCYKRNRATRVECTTIVNGMKRSFYVYANGGRGFCKTHNWNCL
+                           ******::***.************************:.**********.**** *****:
+
+protien-from-sars2020      NCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVTVKNGSIHLYFDKAGQKTY
+protein-from-urbani        NCDTFCTGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVAVKNGALHLYFDKAGQKTY
+                           ******:**********************************:****::************
+
+protien-from-sars2020      ERHSLSHFVNLDNLRANNTKGSLPINVIVFDGKSKCEESSAKSASVYYSQLMCQPILLLD
+protein-from-urbani        ERHPLSHFVNLDNLRANNTKGSLPINVIVFDGKSKCDESASKSASVYYSQLMCQPILLLD
+                           ***.********************************:**::*******************
+
+protien-from-sars2020      QALVSDVGDSAEVAVKMFDAYVNTFSSTFNVPMEKLKTLVATAEAELAKNVSLDNVLSTF
+protein-from-urbani        QVLVSDVGDSTEVSVKMFDAYVDTFSATFSVPMEKLKALVATAHSELAKGVALDGVLSTF
+                           *.********:**:********:***:**.*******:***** :****.*:**.*****
+
+protien-from-sars2020      ISAARQGFVDSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKVENMTPRDLGACID
+protein-from-urbani        VSAARQGVVDTDVDTKDVIECLKLSHHSDLEVTGDSCNNFMLTYNKVENMTPRDLGACID
+                           :******.**:**:****:*******:**:*********:********************
+
+protien-from-sars2020      CSARHINAQVAKSHNIALIWNVKDFMSLSEQLRKQIRSAAKKNNLPFKLTCATTRQVVNV
+protein-from-urbani        CNARHINAQVAKSHNVSLIWNVKDYMSLSEQLRKQIRSAAKKNNIPFRLTCATTRQVVNV
+                           *.*************::*******:*******************:**.************
+
+protien-from-sars2020      VTTKIALKGGKIVNNWLKQLIKVTLVFLFVAAIFYLITPVHVMSKHTDFSSEIIGYKAID
+protein-from-urbani        ITTKISLKGGKIVSTCFKLMLKATLLCVLAALVCYIVMPVHTLSIHDGYTNEIIGYKAIQ
+                           :****:*******.. :* ::*.**: ::.* : *:: ***.:* * .::.********:
+
+protien-from-sars2020      GGVTRDIASTDTCFANKHADFDTWFSQRGGSYTNDKACPLIAAVITREVGFVVPGLPGTI
+protein-from-urbani        DGVTRDIISTDDCFANKHAGFDAWFSQRGGSYKNDKSCPVVAAIITREIGFIVPGLPGTV
+                           .****** *** *******.**:*********.***:**::**:****:**:*******:
+
+protien-from-sars2020      LRTTNGDFLHFLPRVFSAVGNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYC
+protein-from-urbani        LRAINGDFLHFLPRVFSAVGNICYTPSKLIEYSDFATSACVLAAECTIFKDAMGKPVPYC
+                           **: ****************************:******************* *******
+
+protien-from-sars2020      YDTNVLEGSVAYESLRPDTRYVLMDGSIIQFPNTYLEGSVRVVTTFDSEYCRHGTCERSE
+protein-from-urbani        YDTNLLEGSISYSELRPDTRYVLMDGSIIQFPNTYLEGSVRVVTTFDAEYCRHGTCERSE
+                           ****:****::*..*********************************:************
+
+protien-from-sars2020      AGVCVSTSGRWVLNNDYYRSLPGVFCGVDAVNLLTNMFTPLIQPIGALDISASIVAGGIV
+protein-from-urbani        VGICLSTSGRWVLNNEHYRALSGVFCGVDAMNLIANIFTPLVQPVGALDVSASVVAGGII
+                           .*:*:**********::**:*.********:**::*:****:**:****:***:*****:
+
+protien-from-sars2020      AIVVTCLAYYFMRFRRAFGEYSHVVAFNTLLFLMSFTVLCLTPVYSFLPGVYSVIYLYLT
+protein-from-urbani        AILVTCAAYYFMKFRRVFGEYNHVVAANALLFLMSFTILCLVPAYSFLPGVYSVFYLYLT
+                           **:*** *****.***.****.**** *:********:***.*.**********:*****
+
+protien-from-sars2020      FYLTNDVSFLAHIQWMVMFTPLVPFWITIAYIICISTKHFYWFFSNYLKRRVVFNGVSFS
+protein-from-urbani        FYFTNDVSFLAHLQWFAMFSPIVPFWITAIYVFCISLKHCHWFFNNYLRKRVMFNGVTFS
+                           **:*********:**:.**:*:******  *::*** ** :***.***..**:****:**
+
+protien-from-sars2020      TFEEAALCTFLLNKEMYLKLRSDVLLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCH
+protein-from-urbani        TFEEAALCTFLLNKEMYLKLRSETLLPLTQYNRYLALYNKYKYFSGALDTTSYREAACCH
+                           **********************:.***********************:************
+
+protien-from-sars2020      LAKALNDFSNSGSDVLYQPPQTSITSAVLQSGFRKMAFPSGKVEGCMVQVTCGTTTLNGL
+protein-from-urbani        LAKALNDFSNSGADVLYQPPQTSITSAVLQSGFRKMAFPSGKVEGCMVQVTCGTTTLNGL
+                           ************:***********************************************
+
+protien-from-sars2020      WLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLK
+protein-from-urbani        WLDDTVYCPRHVICTAEDMLNPNYEDLLIRKSNHSFLVQAGNVQLRVIGHSMQNCLLRLK
+                           ****.**********:******************.********************:*.**
+
+protien-from-sars2020      VDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGF
+protein-from-urbani        VDTSNPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNHTIKGSFLNGSCGSVGF
+                           ***:***************************************.****************
+
+protien-from-sars2020      NIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYA
+protein-from-urbani        NIDYDCVSFCYMHHMELPTGVHAGTDLEGKFYGPFVDRQTAQAAGTDTTITLNVLAWLYA
+                           *****************************:*********************:********
+
+protien-from-sars2020      AVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKE
+protein-from-urbani        AVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCAALKE
+                           ********************************************************:***
+
+protien-from-sars2020      LLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQSAVKRTIKGTHHWLLLTILTSLLV
+protein-from-urbani        LLQNGMNGRTILGSTILEDEFTPFDVVRQCSGVTFQGKFKKIVKGTHHWMLLTFLTSLLI
+                           **************::********************. .*. :******:***:*****:
+
+protien-from-sars2020      LVQSTQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLPSLATVAYFNMV
+protein-from-urbani        LVQSTQWSLFFFVYENAFLPFTLGIMAIAACAMLLVKHKHAFLCLFLLPSLATVAYFNMV
+                           ************:********::**:*::* **::*************************
+
+protien-from-sars2020      YMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASAVVLLILMTARTVYDDGARRVWTLMN
+protein-from-urbani        YMPASWVMRIMTWLELADTSLSGYRLKDCVMYASALVLLILMTARTVYDDAARRVWTLMN
+                           **************::.******:.**********:**************.*********
+
+protien-from-sars2020      VLTLVYKVYYGNALDQAISMWALIISVTSNYSGVVTTVMFLARGIVFMCVEYCPIFFITG
+protein-from-urbani        VITLVYKVYYGNALDQAISMWALVISVTSNYSGVVTTIMFLARAIVFVCVEYYPLLFITG
+                           *:*********************:*************:*****.***:**** *::****
+
+protien-from-sars2020      NTLQCIMLVYCFLGYFCTCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKN
+protein-from-urbani        NTLQCIMLVYCFLGYCCCCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKS
+                           *************** * *****************************************.
+
+protien-from-sars2020      SIDAFKLNIKLLGVGGKPCIKVATVQSKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQ
+protein-from-urbani        SIDAFKLNIKLLGIGGKPCIKVATVQSKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQ
+                           *************:**********************************************
+
+protien-from-sars2020      LHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPS
+protein-from-urbani        LHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINRLCEEMLDNRATLQAIASEFSSLPS
+                           ***********************************.************************
+
+protien-from-sars2020      YAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMY
+protein-from-urbani        YAAYATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMY
+                           ***:********************************************************
+
+protien-from-sars2020      KQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVV
+protein-from-urbani        KQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVV
+                           ************************************************************
+
+protien-from-sars2020      IPDYNTYKNTCDGTTFTYASALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIVTALRA
+protein-from-urbani        VPDYGTYKNTCDGNTFTYASALWEIQQVVDADSKIVQLSEINMDNSPNLAWPLIVTALRA
+                           :***.********.***************************.******************
+
+protien-from-sars2020      NSAVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLALLSDLQDLKW
+protein-from-urbani        NSAVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNNSKGGRFVLALLSDHQDLKW
+                           ****************************************.:************ *****
+
+protien-from-sars2020      ARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFIKGLNNLNRGMVLGSLAATVRLQ
+protein-from-urbani        ARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFIKGLNNLNRGMVLGSLAATVRLQ
+                           ************************************************************
+
+protien-from-sars2020      AGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPE
+protein-from-urbani        AGNATEVPANSTVLSFCAFAVDPAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPE
+                           **********************.*************************************
+
+protien-from-sars2020      ANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLKNTVCTVC
+protein-from-urbani        ANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLRNTVCTVC
+                           ****************************************************.*******
+
+protien-from-sars2020      GMWKGYGCSCDQLREPMLQSADAQSFLNGFAV
+protein-from-urbani        GMWKGYGCSCDQLREPLMQSADASTFLNGFAV
+                           ****************::*****.:*******

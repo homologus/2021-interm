@@ -1,0 +1,21 @@
+f = open('/share/SARS-class/SARS-2020.fasta','r')
+lines = f.readlines()
+
+for i in range(0,len(lines)):
+  lines[i] = lines[i].rstrip('\n')
+
+sequence = ''
+
+for i in range(1,len(lines)):
+  sequence = sequence + lines[i]
+
+DNA = {'A': 0 , 'T': 0, 'G': 0, 'C': 0}
+
+for i in sequence:
+  DNA[i] = DNA[i] + 1
+
+
+GCcontent = (DNA['G'] + DNA['C'])*100/(DNA['A'] + DNA['T'] + DNA['G'] + DNA['C'])
+
+print (DNA)
+print ('The GC-content is ' + str(int(GCcontent)) + '%')
