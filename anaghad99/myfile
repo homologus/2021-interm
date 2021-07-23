@@ -1,0 +1,4 @@
+x = open('small-genome')
+l=x.readlines()
+
+print(l)
