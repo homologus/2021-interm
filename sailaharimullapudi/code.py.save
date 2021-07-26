@@ -1,0 +1,3 @@
+f = open('small-genome')
+lines = f.readlines()
+

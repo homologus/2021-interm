@@ -1,0 +1,41 @@
+from Bio.SeqUtils import GC
+from Bio import SeqIO
+genome = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
+
+frame1 = genome[0].seq.translate()
+frame2 = genome[0].seq[1:len(genome[0].seq) - 2].translate()
+frame3 = genome[0].seq[2:len(genome[0].seq) - 1].translate()
+
+last_stop_index1 = 0
+last_stop_index2 = 0
+last_stop_index3 = 0
+
+print("frame1:")
+for i in range(len(frame1)):
+	if(frame1[i] == "*"):
+		if(i - last_stop_index1 > 100):
+			print("*****")
+			print(last_stop_index1)
+			print(i)
+			print(frame1[last_stop_index1+1:i])
+		last_stop_index1 = i
+
+print("frame2:")
+for i in range(len(frame2)):
+	if(frame2[i] == "*"):
+		if(i - last_stop_index2 > 100):
+			print("*****")
+			print(last_stop_index2)
+			print(i)
+			print(frame2[last_stop_index2+1:i])
+		last_stop_index2 = i
+
+print("frame3:")
+for i in range(len(frame3)):
+	if(frame3[i] == "*"):
+		if(i - last_stop_index3 > 100):
+			print("*****")
+			print(last_stop_index3)
+			print(i)
+			print(frame3[last_stop_index3+1:i])
+		last_stop_index3 = i

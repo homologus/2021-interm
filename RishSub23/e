@@ -1,0 +1,6 @@
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+reads = list(SeqIO.parse("genes.fasta", "fasta"))
+
+print(GC(reads[0].seq))

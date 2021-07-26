@@ -1,0 +1,17 @@
+f = open("/share/SARS-class/SARS-2020.fasta") 
+lines = f.readlines()
+
+dna = ""
+
+for i in range(1,len(lines)): 
+	lines[i] = lines[i].rstrip('\n') 
+	dna = dna + lines[1]
+
+print(dna[0:])
+print(dna[1:])
+print(dna[2:])
+
+from Bio import SeqIO
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta")) 
+
+print(reads.reverse()) 

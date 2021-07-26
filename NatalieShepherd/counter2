@@ -1,0 +1,12 @@
+from Bio import SeqIO
+from Bio.SeqUtils import GC
+
+reads = list(SeqIO.parse("small-genome", "fasta"))
+
+counter = {'A': 0, 'T': 0, 'G': 0, 'C': 0}
+
+for i in reads[0]:
+  counter[i] = counter[i] + 1
+
+print(counter)
+print('GC content: ' + str(GC(reads[0].seq)))

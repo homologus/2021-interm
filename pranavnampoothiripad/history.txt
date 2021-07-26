@@ -1,0 +1,38 @@
+    1  passwd
+    2  ls
+    3  nano newcode
+    4  ls
+    5  python newcode
+    6  newcode
+    7  open newcode
+    8  nano test
+    9  python test
+   10  nano test
+   11  more test
+   12  nano small-genome
+   13  nano problem1
+   14  python problem 1
+   15  python problem1
+   16  ls
+   17  nano problem1
+   18  python problem1
+   19  nano problem1
+   20  python problem1
+   21  nano problem1
+   22  python problem1
+   23  nano problem1
+   24  python problem1
+   25  nano problem1
+   26  python problem1
+   27  nano problem1
+   28  python problem1
+   29  nano small-genome
+   30  python problem1
+   31  nano small-genome
+   32  nano problem1
+   33  python problem1
+   34  cd /share/SARS-class/
+   35  ls
+   36  history > history.txt
+   37  ls
+   38  history > ~/history.txt

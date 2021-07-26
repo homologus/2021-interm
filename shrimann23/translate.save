@@ -1,0 +1,24 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta","fasta"))
+
+count = 0
+
+a = reads[0].seq.translate()
+
+b = reads[0].seq[1:].translate()
+
+c = reads[0].seq[2:].translate(
+
+
+print ("1st Frame ", str(a.translate()))
+
+print ("2nd Frame ", str(b.translate()))
+
+print ("3rd Frame ", str(c.translate()))
+
+	
+
+
+
+
