@@ -1,0 +1,18 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse('aldh2.aln', 'fasta'))
+
+reads.append(reads[0])
+
+diff = {reads[0].id: 0, reads[1].id: 0, reads[2].id: 0}
+
+for x in range (0, len(reads)-1):
+
+  for i in range (0, len(reads[x].seq)):
+    if len(reads[x+1].seq) >= len(reads[x].seq):
+      if reads[x][i] != reads[x+1][i]:
+        diff[reads[x].id] = diff[reads[x].id] + 1
+    else:
+      if reads[x+1][i] != reads[x][i]:
+        diff[reads[x].id] = diff[reads[x].id] + 1
+
+  print('There are ' + str(diff[reads[x].id]) + ' difference(s) between ' + reads[x].id + ' and ' + reads[x+1].id)
