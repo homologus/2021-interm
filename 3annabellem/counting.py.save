@@ -1,0 +1,8 @@
+genome = small-genome.fasta
+count = {"A":0, "T":0, "G":0, "C":0}
+
+for i in range(len(genome)):
+	count[genome[i]] = count[genome[i]python counting.py
+] + 1
+
+print (count)
