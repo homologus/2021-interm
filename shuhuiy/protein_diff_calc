@@ -1,0 +1,20 @@
+from Bio import SeqIO
+sequences = list(SeqIO.parse('aldh2.aln', 'fasta'))
+
+def protein_diff_calc(sequence1, sequence2):
+	differences = 0
+	for i in range(len(sequence1)):
+		if sequence1[i] != sequence2[i]:
+			differences = differences + 1
+	return differences
+
+for i in sequences:
+	if i.id == 'beluga-whale':
+		beluga = i.seq
+		break
+
+for protein in sequences:
+	print(f'Differences between beluga whale and {protein.id}: {protein_diff_calc(beluga, protein.seq)}')
+
+
+
