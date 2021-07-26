@@ -1,0 +1,20 @@
+
+
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta","fasta"))
+
+for frame in range(3):
+
+   aminos = reads[0][frame:].translate().seq
+  
+   proteins =  str(aminos).split("*")
+
+   for i in proteins:
+
+      if (len(i) > 100):
+
+          z = aminos.find(i)
+          f = z + len(i)
+          print (frame, i, z, f)
+
