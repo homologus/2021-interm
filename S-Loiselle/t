@@ -1,0 +1,79 @@
+\gencode = {
+    'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
+    'ACA':'T', 'ACC':'T', 'ACG':'T', 'ACT':'T',
+    'AAC':'N', 'AAT':'N', 'AAA':'K', 'AAG':'K',
+    'AGC':'S', 'AGT':'S', 'AGA':'R', 'AGG':'R',
+    'CTA':'L', 'CTC':'L', 'CTG':'L', 'CTT':'L',
+    'CCA':'P', 'CCC':'P', 'CCG':'P', 'CCT':'P',
+    'CAC':'H', 'CAT':'H', 'CAA':'Q', 'CAG':'Q',
+    'CGA':'R', 'CGC':'R', 'CGG':'R', 'CGT':'R',
+    'GTA':'V', 'GTC':'V', 'GTG':'V', 'GTT':'V',
+    'GCA':'A', 'GCC':'A', 'GCG':'A', 'GCT':'A',
+    'GAC':'D', 'GAT':'D', 'GAA':'E', 'GAG':'E',
+    'GGA':'G', 'GGC':'G', 'GGG':'G', 'GGT':'G',
+    'TCA':'S', 'TCC':'S', 'TCG':'S', 'TCT':'S',
+    'TTC':'F', 'TTT':'F', 'TTA':'L', 'TTG':'L',
+    'TAC':'Y', 'TAT':'Y', 'TAA':'*', 'TAG':'*',
+    'TGC':'C', 'TGT':'C', 'TGA':'*', 'TGG':'W'}
+
+f = open('/share/SARS-class/SARS-2020.fasta')
+s = f.readlines() 
+
+for i in range(1, len(s)):
+  s[i] = s[i].rstrip()
+
+del s[0]
+
+s[::-1]
+
+a = ''
+
+for i in s:
+  b = i + a
+  a = b
+
+s = a 
+
+length = len(s) + 1
+
+ps = []
+
+x = 0
+y = 3 
+
+for i in range(1, length):
+  for i in gencode:
+    if s[x:y] == i:
+      ps.append(gencode[s[x:y]])
+    
+
+  x = x+3
+  y = y+3 
+
+
+z = 0
+
+sp = [0] 
+
+for i in ps:
+  if i == '*':
+    sp.append(z)
+  z += 1
+
+print(sp)
+
+d = []
+
+for i in range(1,len(sp)):
+  e =  sp[i] - sp[i-1]
+  d.append(e+1)
+ 
+print(d)
+
+
+print(sp[1])
+
+for i in range(1,6): 
+  print(ps[sp[i]:sp[i]+ps[i]])
+
+

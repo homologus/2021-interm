@@ -1,0 +1,30 @@
+
+
+reads = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta","fasta"))
+
+aminos = 0
+count = 0
+
+a = reads[0].seq.translate()
+
+b = reads[0].seq[1:].translate()
+
+c = reads[0].seq[2:].translate()
+
+x = str(a) + str(b) + str(c)
+
+for i in range(len(x)):
+
+    if (not x[i : i+1]=='*'):
+        
+       aminos += 1
+
+    else:
+
+       if (aminos >=100):
+          
+           count += 1
+           aminos = 0
+
+
+print(count)

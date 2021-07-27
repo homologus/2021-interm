@@ -1,0 +1,25 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+reads = list(SeqIO.parse('/share/SARS-class/SARS-urbani.fasta','fasta'))
+
+dna = reads[0].seq
+
+
+for start in [0,1,2]:
+  sequence = dna[start:]
+  prot = sequence.translate()  
+  c = 0
+  for i in range(0,len(prot)):
+    if prot[i] == '*':
+      if len(prot[c:i]) > 100:
+        print(start)
+        print(c,i)
+        print(i-c)
+        print(prot[c:i])
+      c = i + 1
+
+  
+
+
+
+
