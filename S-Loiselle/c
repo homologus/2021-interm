@@ -1,0 +1,31 @@
+from Bio.Seq import Seq
+import random
+
+dna = ''
+
+for i in range(29000):
+    x=random.uniform(0,1)
+    if x>=0 and x<0.2:
+        dna = dna + 'G'
+    if x>=0.2 and x<0.4:
+        dna = dna + 'C'
+    if x>=0.4 and x<0.7:
+        dna = dna + 'A'
+    if x>=0.7 and x<=1:
+        dna = dna + 'T' 
+
+y = 0
+for start in [0,1,2]:
+  sequence = Seq(dna[start:])
+  prot = sequence.translate()
+  c = 0
+  for i in range(0,len(prot)):
+    if prot[i] == '*':
+      if len(prot[c:i]) > 100:
+        y += 1
+        print(start)
+        print(c,i)
+        print(prot[c:i])
+      c = i + 1
+
+print("there are", y , "sequences greater than 100")

@@ -1,0 +1,29 @@
+import random
+from Bio.Seq import Seq
+from Bio.SeqUtils import GC
+genome=""
+
+for i in range(10072):
+	x = random.uniform(0, 1)
+	
+	if x>=0 and x<0.19:
+		genome = genome + 'C'
+	if x>=0.19 and x < 0.38:
+		genome = genome + 'G'
+	if x >=0.38 and x < 0.69:
+		genome = genome + "A"
+	if x>=0.69 and x<=1:
+		genome = genome + "T"
+genome = Seq(genome)
+
+print(genome.translate())
+print(GC(genome))
+
+translated_genome = genome.translate()
+genome_split = translated_genome.split('*')
+
+for i in genome_split:
+	letter_count = len(i)
+	if letter_count > 100:
+		print(letter_count)
+		print(i)

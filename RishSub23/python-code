@@ -1,0 +1,4 @@
+from Bio.seq import Seq 
+read = Seq("GATCGTAGATAG") 
+
+print(read[10:20])
