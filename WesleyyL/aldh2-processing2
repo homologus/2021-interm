@@ -1,0 +1,36 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("aldh2-whale-fasta", "fasta"))
+
+
+beluga = reads[0]
+
+orca = reads[1]
+
+dolphin = reads[2]
+
+
+beluga_orca = 0
+beluga_dolphin = 0
+orca_dolphin = 0
+
+
+for organism in reads:
+	count = 0
+	while count <= (len(max(reads, key = len))-1):
+
+	if organism.seq[count] != reads[variable].seq[count]:
+beluga_orca += 1
+if beluga.seq[count] != dolphin.seq[count]:
+beluga_dolphin += 1
+if orca.seq[count] != dolphin.seq[count]:
+orca_dolphin += 1
+
+count += 1
+
+
+print("Difference between: ")
+print("beluga whale and orca = " + str(beluga_orca))
+print("beluga whale and dolphin = " + str(beluga_dolphin))
+print("orca and dolphin = " + str(orca_dolphin))
