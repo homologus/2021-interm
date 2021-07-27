@@ -1,0 +1,22 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("insectaldh2.fa", "fasta"))
+
+animalproteins = []
+
+for x in reads:
+	animalproteins.append(x.seq)
+print(animalproteins)
+for i in range(0,len(animalproteins)-1):
+	for w in range(i+1, len(animalproteins)):
+		print(reads[i].id + " and " + reads[w].id + " differences: ")
+		differences = 0
+		for y in range(0,len(animalproteins[i])):
+			if animalproteins[i][y] != animalproteins[w][y]:
+				#print(reads[i].id + " and " + reads[w].id + " don't match!")
+				differences+=1
+		print(differences)
+	
+	
+	
+		
+
