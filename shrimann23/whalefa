@@ -1,0 +1,33 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("whale.aln", "fasta"))
+
+for i in reads:
+
+    print (i.id, i.seq)
+
+whaledolph = 0
+whaleorca = 0
+dolphorca = 0
+tracker = 0
+
+for t in range(len(reads[0].seq)):
+
+    if (reads[0][t:t+1].seq != reads[1][t:t+1].seq):
+
+        whaledolph += 1
+
+    if (reads[0][t:t+1].seq != reads[2][t:t+1].seq):
+
+        whaleorca += 1
+
+    if (reads[1][t:t+1].seq != reads[2][t:t+1].seq):
+
+        dolphorca += 1
+
+
+print ("whale-dolphin", whaledolph)
+print ("whale-orca", whaleorca)
+print ("dolphin-orca", dolphorca)
+
+
