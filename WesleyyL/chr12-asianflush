@@ -1,0 +1,31 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+
+chr12 = list(SeqIO.parse("/share/Human/chr12.fa", "fasta"))
+
+aldh2 = list(SeqIO.parse("aldh2-human.fasta", "fasta"))
+
+#Step 1 - Check pos. 111803962 for G or A
+
+normal = True
+
+if chr12[0].seq[111803962-1] == "G":
+	normal = True
+
+elif chr12[0].seq[111803962-1] == "A":
+	normal = False
+else:
+	print("Error: something went wrong")
+
+if normal == True:
+	print("Chromosome 12 is normal")
+elif normal == False:
+	print("Chromosome 12 has asian flush")
+
+
+#Step 2 - Translating ALDH2 sequence
+
+
+aldh2_translated = aldh2[0].seq.translate()
+
+print(aldh2_translated)
