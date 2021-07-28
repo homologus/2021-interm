@@ -1,0 +1,26 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("finalwhales.aln", "fasta")) 
+
+for i in reads:
+    
+	print (i.id, i.seq)
+
+for j in range(len(reads)):
+
+	for k in range(len(reads)):
+         
+		if (j != k):
+            
+			count = 0
+
+			for t in range(len(reads[j].seq)):
+                  
+				if (reads[j].seq[t] != reads[k].seq[t]):
+                     
+					count += 1
+
+			print (reads[j].id, reads[k].id, count)   
+
+                          
+             
