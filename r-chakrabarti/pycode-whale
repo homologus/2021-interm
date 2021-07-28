@@ -1,0 +1,10 @@
+from Bio import SeqIO
+
+for i in range(len(prots)):
+  for j in range(i+1, len(prots)):
+
+   diff = 0
+   for k in range(len(prots[i].seq)):
+    if(prots[i].seq[k] != prots[j].seq[k]):
+      diff = diff + 1
+   print(prots[i].id, prots[j].id, diff)
