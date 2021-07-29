@@ -1,0 +1,9 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse('/share/Human/chr12.fa', 'fasta'))
+
+chr_seq = reads[0].seq
+
+if chr_seq[111803961] == 'A':
+	print('Asian flush present')
+elif chr_seq[111803961] == 'G':
+	print('Asian flush not present')
