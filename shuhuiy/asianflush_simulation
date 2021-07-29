@@ -1,0 +1,14 @@
+from Bio import SeqIO
+chr_reads = list(SeqIO.parse('/share/Human/chr12.fa', 'fasta'))
+
+chr_seq = chr_reads[0].seq
+
+if chr_seq[111803961] == 'G':
+	noflush_chr = chr_seq
+	flush_chr = chr_seq[111803961].replace('G', 'A')
+elif chr.seq[111803961] == 'A':
+	noflush_chr = chr_seq[111803961].replace('A', 'G')
+	flush_chr = chr_seq
+
+noflush_protein = noflush_chr.translate()
+flush_protein = flush_chr.translate()

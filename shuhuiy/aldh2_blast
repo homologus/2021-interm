@@ -1,0 +1,308 @@
+BLASTN 2.2.31+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: chr12.fa
+           1 sequences; 133,275,309 total letters
+
+
+
+Query= beluga-whale
+
+Length=359
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.806     2.01 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 44513944856
+
+
+Query= orca
+
+Length=359
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.806     2.01 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 44513944856
+
+
+Query= dolphin
+
+Length=360
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.806     2.01 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 44647220140
+
+
+Query= tiger
+
+Length=286
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.20    0.803     1.99 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 34784849124
+
+
+Query= horse
+
+Length=344
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.19    0.800     1.97 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 42514815596
+
+
+Query= vascular-plant
+
+Length=364
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.806     2.00 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 45180321276
+
+
+Query= snow-crab
+
+Length=351
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.28    0.816     2.07 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43447742584
+
+
+Query= cattle
+
+Length=358
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.806     2.01 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 44380669572
+
+
+Query= insect
+
+Length=345
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.19    0.800     1.97 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 42648090880
+
+
+Query= grey-wolf
+
+Length=351
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.19    0.802     1.98 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43447742584
+
+
+Query= pig
+
+Length=351
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.22    0.805     2.00 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43447742584
+
+
+Query= human
+
+Length=352
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.20    0.803     1.99 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43581017868
+
+
+Query= elephant
+
+Length=354
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.20    0.802     1.98 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43847568436
+
+
+Query= seal
+
+Length=355
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.20    0.803     1.99 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 43980843720
+
+
+Query= bear
+
+Length=357
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.20    0.802     1.98 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 44247394288
+
+
+  Database: chr12.fa
+    Posted date:  Jun 23, 2020  7:47 PM
+  Number of letters in database: 133,275,309
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
