@@ -2,6 +2,7 @@ from Bio.SeqUtils import GC
 from Bio import SeqIO
 dna = list(SeqIO.parse("/share/SARS-class/SARS-2020.fasta", "fasta"))
 
+
 print(len(dna[0].seq))
 print(GC(dna[0].seq))
 
