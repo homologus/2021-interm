@@ -18,4 +18,3 @@ for i in range(len(reads)):
 			print(f'{reads[i].id} and {reads[i+j+1].id}: {n} differences')
 		elif n == 1:
 			print(f'{reads[i].id} and {reads[i+j+1].id}: {n} difference')
-

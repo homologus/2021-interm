@@ -1,0 +1,15 @@
+from Bio.Seq import Seq
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("aldh2-eusociality-fasta", "fasta"))
+
+index = 0
+
+for organism in reads:
+        index += 1
+        for organism2 in reads[index:]:
+                difference = 0
+                for count in range(len(organism)):
+                        if organism.seq[count] != organism2.seq[count]:
+                                difference += 1
+                print("Difference between " + str(organism.id) + " and " + str(organism2.id) + ": " + str(difference))
