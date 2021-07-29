@@ -1,0 +1,14 @@
+from Bio import SeqIO
+dna_reads = (list(SeqIO.parse('aldh2_human_dna', 'fasta')))
+protein_reads = (list(SeqIO.parse('aldh2_human_protein', 'fasta')))
+
+dna_translate = dna_reads[0].seq.translate()
+prot_seq = protein_reads[0].seq
+
+for i in range(len(prot_seq)):
+	differences = 0
+	if dna_translate[i] != prot_seq[i]:
+		differences += 1
+
+print(f'There are {differences} differences') 
+

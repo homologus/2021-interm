@@ -1,5 +1,5 @@
 from Bio import SeqIO
-sequences = list(SeqIO.parse('aldh2.aln', 'fasta'))
+sequences = list(SeqIO.parse('insect_aldh2.aln', 'fasta'))
 
 def protein_diff_calc(sequence1, sequence2):
 	differences = 0
@@ -9,12 +9,17 @@ def protein_diff_calc(sequence1, sequence2):
 	return differences
 
 for i in sequences:
-	if i.id == 'beluga-whale':
-		beluga = i.seq
-		break
+	if i.id == 'honey-bee':
+		honeybee = i.seq
+	if i.id == 'ant':
+		ant = i.seq
 
 for protein in sequences:
-	print(f'Differences between beluga whale and {protein.id}: {protein_diff_calc(beluga, protein.seq)}')
+	if protein.id != 'honey-bee':
+		print(f'Differences between honey bee and {protein.id}: {protein_diff_calc(honeybee, protein.seq)}')
 
+for protein in sequences:
+	if protein.id != 'ant':
+		print(f'Differences between ant and {protein.id}: {protein_diff_calc(ant, protein.seq)}')
 
 
