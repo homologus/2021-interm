@@ -1,9 +1,14 @@
+
 from Bio.Seq import Seq
 from Bio import SeqIO
 
 chr12 = list(SeqIO.parse("/share/Human/chr12.fa", "fasta"))
 
 aldh2 = list(SeqIO.parse("aldh2-human.fasta", "fasta"))
+
+
+
+"""
 
 #Step 1 - Check pos. 111803962 for G or A
 
@@ -22,10 +27,41 @@ if normal == True:
 elif normal == False:
 	print("Chromosome 12 has asian flush")
 
+"""
+
+
 
 #Step 2 - Translating ALDH2 sequence
 
 
 aldh2_translated = aldh2[0].seq.translate()
 
-print(aldh2_translated)
+#print(aldh2_translated)
+
+
+
+
+#Step 4 - translate ALDH2 when chromosome 12, 111803962 changes from G to A
+
+aldh2_mutated = aldh2[0].seq[:(1510-1)] + "A" + aldh2[0].seq[1510:]
+
+#print(aldh2[0].seq[1510-1])
+
+aldh2_m_translated = aldh2_mutated.translate()
+
+#print(aldh2_m_translated)
+
+
+
+#Finding the differences and location
+
+
+index = 0
+
+for i in aldh2_translated:
+	if i != aldh2_m_translated[index]:
+		print("Difference at: " + str(index+1))
+		print("Original ALDH2 amino acid: " + i)
+		print("Mutated ALDH2 amino acid: " + aldh2_m_translated[index])
+	index += 1
+
