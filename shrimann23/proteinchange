@@ -1,0 +1,10 @@
+from Bio import SeqIO
+
+reads = list(SeqIO.parse("/share/Human/chr12.fa", "fasta"))
+
+curchr12 = reads[0].seq
+
+curchr12  = curchr12[:111803961] + 'A' + curchr12[111803962:] 
+
+print(curchr12[111766983:111809576])       
+

@@ -1,0 +1,10 @@
+beg_gene = [899, 1081, 1247, 218, 552, 1406, 1, 440, 113, 794, 360, 1522]
+end_gene = [1086, 1248, 1407, 361, 682, 1523, 114, 552, 220, 898, 444, 1554]
+beg_chr = []
+end_chr = []
+
+print('Beginning gene locations: ', sorted(beg_gene))
+print('Ending gene locations: ', sorted(end_gene))
+print('Beginning chromosome locations: ', sorted(beg_chr))
+print('Ending chrosome locations: ', sorted(end_chr))
+111792598
