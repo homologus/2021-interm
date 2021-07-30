@@ -1,5 +1,22 @@
+from Bio.Seq import Seq
 from Bio import SeqIO
 
-reads = list(SeqIO.parse("newaldh", "fasta"))
+reads = list(SeqIO.parse("aldh2", "fasta"))
 
-print (reads[0].translate().seq)
+new_seq = ""
+
+for i in range(len(reads[0].seq)):
+
+	if (i == 1509):
+
+		new_seq = new_seq + "A"
+
+	else:
+
+		new_seq = new_seq + reads[0].seq[i]
+
+new_seq = Seq(new_seq)
+
+print(new_seq.translate())
+
+ 
