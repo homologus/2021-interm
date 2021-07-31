@@ -1,0 +1,4 @@
+from Bio import SeqIO
+reads = list(SeqIO.parse("aldh2-human","fasta"))
+
+print(reads[0].seq.translate())
