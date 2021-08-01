@@ -57,7 +57,7 @@ for x in range (0, len(strands)):
       print(strands[x][i] + 1, strands[x][i+1] + 1)
 
 
-print('There are ' + str(strandsNum) + ' proteins that are longer than 100 amino acids: \n')
+print(str(strandsNum) + ' proteins w/ <  100 amino acids: \n')
 
 for i in range(0, len(longStrands)):
   print(longStrands[i] + '\n')
