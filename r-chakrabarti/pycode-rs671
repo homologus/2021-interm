@@ -1,4 +1,13 @@
 from Bio import SeqIO
-reads = list(SeqIO.parse("/share/Human/chr12.fa","fasta"))
 
-print(reads[0][111803961])
+reads = list(SeqIO.parse("/share/Human/chr12.fa", "fasta"))
+
+if (reads[0].seq[111803961] == 'G'):
+
+        print ("normal")
+
+
+elif (reads[0].seq[111803961] == 'A'):
+
+        print ("irregular")
+
